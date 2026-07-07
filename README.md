@@ -79,9 +79,3 @@ When finished, stop the container:
 docker stop nginx-dummy-api
 docker rm nginx-dummy-api
 ```
-
-## Notes
-
-- Selenium 4 ships with **Selenium Manager**, so there's no need to manually download or configure a ChromeDriver binary.
-- The JMeter test plan and Nginx config are the only performance-testing artifacts kept in the repo — the JMeter installation itself, logs, and result files are not tracked (see `.gitignore`).
-- Screenshots and the original assignment document are intentionally excluded from this repository per the assignment's submission rules; they are attached separately in the graded submission.
